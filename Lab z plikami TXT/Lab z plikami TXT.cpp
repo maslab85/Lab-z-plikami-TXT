@@ -6,7 +6,9 @@ using namespace std;
 
 int main()
 {
-    cout << "Programoperacja na Plikach TXT!\n";
+    //Program stworzony na potrzeby podstaw programowania.
+    //Autor: Piotr Balcerzak
+    cout << "Program operacja na Plikach TXT!\n";
 
     fstream plik;
     fstream plik2;
@@ -28,8 +30,8 @@ int main()
     }
     else cout << "Dostep do pliku zostal zabroniony!" << endl;
     
-    while (getline(plik, napis))
-        cout << napis;
+    /*while (getline(plik, napis))
+        cout << napis;*/
 
     int dlugosc = napis.length();
     int c = 0;
